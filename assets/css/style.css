@@ -109,3 +109,12 @@ h3 {
   text-align: center;
   font-size: x-large;
 }
+
+
+@media screen and (max-width) {
+    
+    header {
+    width: 1800px;
+    }
+
+}
