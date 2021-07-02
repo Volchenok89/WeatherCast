@@ -20,3 +20,24 @@ h1 {
   color: cyan;
   border: 10px solid darkblue;
 }
+
+.flex {
+    display: flex;
+}
+
+.mainColumn {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+h2.lookUpCity {
+    text-align: center;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+
+
