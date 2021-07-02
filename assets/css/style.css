@@ -9,35 +9,94 @@ body div {
 }
 
 header {
-  background-image: url("../challenge\ fix/earth.jpg");
+  background-image: url("../images/clouds.jpg");
   background-repeat: no-repeat;
   text-align: center;
+  margin-top: 10px;
   font-size: 50px;
   padding: 4px;
+  border-radius: 10px;
 }
 
 h1 {
-  color: cyan;
+  color: rgb(7, 212, 212);
   border: 10px solid darkblue;
+  margin-top: 2px;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .mainColumn {
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
 }
 
 h2.lookUpCity {
-    text-align: center;
+  text-align: center;
 }
 
 .spaceBetween {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
+.nowWeather {
+  border-style: solid;
+  border-style: double;
+  border-width: 10px;
+  border-color: rgb(19, 204, 133);
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-weight: 800;
+}
 
+.nowWeather p {
+  margin-left: 80px;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  font-style: italic;
+  font-size: x-large;
+}
 
+.img#pic0 {
+  margin-left: 200px;
+}
+
+h2#weather0 {
+  margin: 50px 100px 0px 0px;
+}
+
+.button {
+  margin: 5px 0px;
+  border-radius: 10px;
+}
+
+.searchHistory {
+  border-top: 3px;
+  border-style: solid;
+  border-color: grey;
+}
+
+.Cast {
+  background-color: rgb(123, 170, 218);
+  color: white;
+  border-style: solid;
+  border-radius: 10px;
+  border: 5px;
+  padding: 5px 25px;
+  margin-bottom: 50px;
+}
+
+.dayCast {
+  align-items: baseline;
+  margin: 50px;
+  padding: 0px;
+}
+
+h3 {
+  text-align: center;
+  font-size: x-large;
+}
