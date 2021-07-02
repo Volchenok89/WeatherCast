@@ -17,10 +17,8 @@ You will be able to check the weather in different cities.
 -JavaScript
 
 
-
-
 ## Repository address
-https://github.com/Volchenok89/WeatherCast.git
+https://volchenok89.github.io/WeatherCast/
 
 ## Website
 
