@@ -115,7 +115,7 @@ h3 {
 @media screen and (max-width: 760px) {
     
     header {
-    width: 760px;
+    width: 800px;
     }
 
     .flex {
@@ -123,7 +123,22 @@ h3 {
       }
 
       .img#pic0 {
-        margin-left: 150px;
+        margin-left: 3px;
       }
 
+
+      .nowWeather {
+        font-weight: 700;
+        
+      }
+
+      .nowWeather.mainColumn {
+        height: 600px;
+        color:rgb(207, 134, 85);
+        width: 600px;
+    }
+
+
 }
+
+
