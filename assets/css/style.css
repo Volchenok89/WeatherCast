@@ -57,6 +57,7 @@ h2.lookUpCity {
 .nowWeather.mainColumn {
     height: 600px;
     color:rgb(207, 134, 85);
+    width: 800px;
 }
 
 .nowWeather p {
@@ -121,5 +122,8 @@ h3 {
         display: block;
       }
 
+      .img#pic0 {
+        margin-left: 150px;
+      }
 
 }
