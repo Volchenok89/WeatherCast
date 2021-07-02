@@ -134,9 +134,9 @@ h3 {
       }
 
       .nowWeather.mainColumn {
-        height: 500px;
+        height: 600px;
         color:rgb(207, 134, 85);
-        width: 600px;
+        width: 500px;
     }
 
     .Cast {
