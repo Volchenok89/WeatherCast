@@ -111,7 +111,7 @@ h3 {
 }
 
 
-@media screen and (max-width) {
+@media screen and (max-width: 760px) {
     
     header {
     width: 1800px;
