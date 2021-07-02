@@ -1,0 +1,22 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px;
+  background-color: rgb(24, 95, 202);
+}
+
+body div {
+  display: flex;
+}
+
+header {
+  background-image: url("../challenge\ fix/earth.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 50px;
+  padding: 4px;
+}
+
+h1 {
+  color: cyan;
+  border: 10px solid darkblue;
+}
