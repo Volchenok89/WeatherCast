@@ -19,9 +19,9 @@ header {
 }
 
 h1 {
-  color: rgb(7, 212, 212);
+  color: rgb(15, 223, 223);
   border: 10px solid darkblue;
-  margin-top: 2px;
+  margin-top: 30px;
 }
 
 .flex {
