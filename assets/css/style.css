@@ -48,20 +48,21 @@ h2.lookUpCity {
   border-width: 10px;
   border-color: rgb(19, 204, 133);
   border-radius: 10px;
-  padding: 10px 10px 10px 5px;
+  padding: 10px 10px 10px 10px;
   text-align: center;
   font-weight: 800;
-  
+  margin-left: 70px;
+    
 }
 
 .nowWeather.mainColumn {
     height: 600px;
     color:rgb(207, 134, 85);
-    width: 800px;
+    width: 1000px;
 }
 
 .nowWeather p {
-  margin-left: 80px;
+  margin-left: 60px;
   margin-bottom: 5px;
   padding-bottom: 30px;
   font-style: italic;
@@ -70,12 +71,12 @@ h2.lookUpCity {
 }
 
 .img#pic0 {
-  margin-left: 250px;
+  margin-left: 10px;
 }
 
 h2#weather0 {
-    margin: 50px 100px 0px 0px;
-    padding: 30px;
+    margin: 50px 0px 0px 0px;
+    padding: 20px;
     color: greenyellow;
 }
 
@@ -123,7 +124,7 @@ h3 {
       }
 
       .img#pic0 {
-        margin-left: 3px;
+        margin-left: 0px;
       }
 
 
@@ -133,11 +134,15 @@ h3 {
       }
 
       .nowWeather.mainColumn {
-        height: 600px;
+        height: 500px;
         color:rgb(207, 134, 85);
         width: 600px;
     }
 
+    .Cast {
+        margin-bottom: 50px;
+        margin-left: 150px;
+    }
 
 }
 
