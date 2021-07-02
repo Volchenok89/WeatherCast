@@ -48,27 +48,28 @@ fetchCastByCity(city.value)
     document.getElementById("humid2").textContent = `Humidity: ${data.daily[2].humidity} %`;
     document.getElementById("uv2").textContent = `UV Index: ${data.daily[2].uvi}`;
 
-            document.getElementById("weather3").textContent = `${dayjs.unix(data.daily[3].dt).format("(dddd/DD)")}`;
-            document.getElementById("pic3").src = `http://openweathermap.org/img/wn/${data.daily[3].weather[0].icon}@2x.png`;
-            document.getElementById("temp3").textContent = `Temp: ${data.daily[3].temp.day}°F`;
-            document.getElementById("wind3").textContent = `Wind: ${data.daily[3].wind_speed} MPH`;
-            document.getElementById("humid3").textContent = `Humidity: ${data.daily[3].humidity} %`;
-            document.getElementById("uv3").textContent = `UV Index: ${data.daily[3].uvi}`;
+    document.getElementById("weather3").textContent = `${dayjs.unix(data.daily[3].dt).format("(dddd/DD)")}`;
+    document.getElementById("pic3").src = `http://openweathermap.org/img/wn/${data.daily[3].weather[0].icon}@2x.png`;
+    document.getElementById("temp3").textContent = `Temp: ${data.daily[3].temp.day}°F`;
+    document.getElementById("wind3").textContent = `Wind: ${data.daily[3].wind_speed} MPH`;
+    document.getElementById("humid3").textContent = `Humidity: ${data.daily[3].humidity} %`;
+    document.getElementById("uv3").textContent = `UV Index: ${data.daily[3].uvi}`;
 
-            document.getElementById("weather4").textContent = `${dayjs.unix(data.daily[4].dt).format("(dddd/DD)")}`;
-            document.getElementById("pic4").src = `http://openweathermap.org/img/wn/${data.daily[4].weather[0].icon}@2x.png`;
-            document.getElementById("temp4").textContent = `Temp: ${data.daily[4].temp.day}°F`;
-            document.getElementById("wind4").textContent = `Wind: ${data.daily[4].wind_speed} MPH`;
-            document.getElementById("humid4").textContent = `Humidity: ${data.daily[4].humidity} %`;
-            document.getElementById("uv4").textContent = `UV Index: ${data.daily[4].uvi}`;
+    document.getElementById("weather4").textContent = `${dayjs.unix(data.daily[4].dt).format("(dddd/DD)")}`;
+    document.getElementById("pic4").src = `http://openweathermap.org/img/wn/${data.daily[4].weather[0].icon}@2x.png`;
+    document.getElementById("temp4").textContent = `Temp: ${data.daily[4].temp.day}°F`;
+    document.getElementById("wind4").textContent = `Wind: ${data.daily[4].wind_speed} MPH`;
+    document.getElementById("humid4").textContent = `Humidity: ${data.daily[4].humidity} %`;
+    document.getElementById("uv4").textContent = `UV Index: ${data.daily[4].uvi}`;
 
-            document.getElementById("weather5").textContent = `${dayjs.unix(data.daily[5].dt).format("(dddd/DD)")}`;
-            document.getElementById("pic5").src = `http://openweathermap.org/img/wn/${data.daily[5].weather[0].icon}@2x.png`;
-            document.getElementById("temp5").textContent = `Temp: ${data.daily[5].temp.day}°F`;
-            document.getElementById("wind5").textContent = `Wind: ${data.daily[5].wind_speed} MPH`;
-            document.getElementById("humid5").textContent = `Humidity: ${data.daily[5].humidity} %`;
-            document.getElementById("uv5").textContent = `UV Index: ${data.daily[5].uvi}`;
-        });
+    document.getElementById("weather5").textContent = `${dayjs.unix(data.daily[5].dt).format("(dddd/DD)")}`;
+    document.getElementById("pic5").src = `http://openweathermap.org/img/wn/${data.daily[5].weather[0].icon}@2x.png`;
+    document.getElementById("temp5").textContent = `Temp: ${data.daily[5].temp.day}°F`;
+    document.getElementById("wind5").textContent = `Wind: ${data.daily[5].wind_speed} MPH`;
+    document.getElementById("humid5").textContent = `Humidity: ${data.daily[5].humidity} %`;
+    document.getElementById("uv5").textContent = `UV Index: ${data.daily[5].uvi}`;
+
+});
 
 });
 
